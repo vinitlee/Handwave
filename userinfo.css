@@ -1,0 +1,41 @@
+body{background:#AAA;}
+#grad_t{
+	background:url('assets/grad_w_bkgr.png');
+	background-size:130% 110%;
+	background-position:center top;
+	background-repeat:no-repeat;
+	width:100%;height:100%;
+	top:0%;	
+	left:0%;
+	position:scroll;
+	}
+#usertitle,#avatar{float:left;}
+#avatar {
+	width:180px;
+	height:180px;
+	-webkit-box-shadow:#FFF 0 2px 0,#555 0 -2px 0;
+}
+#headinfo{
+	overflow:hidden;
+	background:url('assets/headinfo_sep.png');
+	background-repeat:repeat-x;
+	background-position:center bottom;
+	padding: 30px 20px 20px 20px;
+}
+#headinfo ul li{
+	display:inline;
+}
+#usertitle{
+	text-align:left;
+	margin-left:20px;
+	margin-top:30px;
+	color:#333;
+}
+#title_name{
+	font-weight:200;
+	font-size:30px;
+	text-shadow:0 2px 0 #FFF;
+}
+#title_occupation{font-size:18px;font-weight:200;color:#555;}
+#title_quote{font-size:18px;font-weight:200;color:#555;margin-top:20px;}
+#social li{display:inline;margin:0 10% 0 10%;}

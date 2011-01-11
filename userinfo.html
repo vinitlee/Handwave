@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<?php include "getUser.php" ?>
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>Handwave:<?php echo $user; ?>'s Profile'</title>
+	<meta name="generator" content="TextMate http://macromates.com/">
+	<meta name="author" content="Vincent Lee">
+	<!-- Date: 2011-01-07 -->
+	<link rel=Stylesheet type="text/css" href="main.css">
+	<link rel=Stylesheet type="text/css" href="userinfo.css">
+</head>
+<body>
+	<div id="grad_t" class="backgradient"></div>
+	<div id="centerContainer">
+		<div id="mainLogo" alt="Handwave"></div>
+		<div id="headinfo">
+			<img src="images/avatar.svg" id="avatar">
+			<du id="usertitle">
+				<dt id="title_name">$USERNAME</dt>
+				<dt id="title_occupation">$OCCUPATION</dt>
+				<dt id="title_quote">$QUOT</dt>
+			</du>
+		</div>
+		<div id="contact">
+			<ul id="social">
+				<li><a href="#"><img src="assets/social_email.png" alt="email $USER"></a></li>
+				<li><a href="#"><img src="assets/social_twitter.png" alt="$USER's twitter feed"></a></li>
+				<li><a href="#"><img src="assets/social_fb.png" alt="$USER's facebook profile"></a></li>
+			</ul>
+		</div>
+		<div id="wall">
+			<du>
+				<dt>Wallpost</dt>
+			</du>
+		</div>
+	</div>
+</body>
+</html>

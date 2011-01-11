@@ -1,0 +1,184 @@
+body{background:#FFAA00;}
+img{
+	margin:0;
+	padding:0;
+}
+#grad_t{
+	background:url('assets/grad_y_bkgr.png');
+	background-size:130% 110%;
+	background-position:center top;
+	background-repeat:no-repeat;
+	width:100%;height:100%;
+	top:0%;	
+	left:0%;
+	position:scroll;
+	}
+/*#grad_t{
+	background:url('assets/grad__yellow_t.png');width:100%;height:600px;
+	top:0%;
+	}
+#grad_r{
+	background:url('assets/grad__yellow_r.png');width:933px;height:100%;	
+	left:100%;
+	margin-left:-933px;
+	}
+#grad_l{background:url('assets/grad__yellow_l.png');width:933px;height:100%;	
+	left:0%;
+	}
+#grad_b{background:url('assets/grad__yellow_b.png');width:100%;height:600px;	
+	top:100%;
+	margin-top:-600px;
+	}
+*/
+
+#login {
+	display:none;
+	height:148px;
+	color:#CCC;
+	font-size:12px;
+	padding:0;
+}
+#login_textinput {
+	position:absolute;
+	margin:32px 0 0 -11px;
+}
+#login_textinput li{display:inline;}
+#login_textinput li input{
+	height:78px;
+	width:236px;
+	margin:0 5px 0 5px;
+	background:#DDD url('assets/grad_gr_textfield.png');
+	border:none;
+	-webkit-box-shadow: 0px 0px 2px 1px #FFF;
+	font-size:40px;
+	font-family:inherit;
+	font-weight:100;
+}
+#login_username {}
+#login_password {}
+#login_textinputlabels {
+	color:#333;
+	position:absolute;
+	margin:117px 0 0 -4px;
+	text-transform:uppercase;
+}
+#login_textinputlabels li{display:inline;margin:0 180px 0 0;}
+#login_btn,#reg_btn {
+	width:130px;
+	height:75px;
+	border:none;
+	margin:0;
+	margin-left:531px;
+	padding:0;
+	padding-left:24px;
+	font-size:16px;
+	color:#CCC;
+	text-shadow:black 0px -1px 1px;
+	background-size:100% 100%;
+}
+#login_btn {background:url('assets/login_btn_up.png');}
+#login_btn:hover{
+	background:url('assets/login_btn_dn.png');
+	text-shadow:#AAA 0px 0px 4px;
+}
+#reg_btn {background:url('assets/reg_btn_up.png');}
+#reg_btn:hover{
+	background:url('assets/reg_btn_dn.png');
+	text-shadow:#AAA 0px 0px 4px;
+}
+
+#userStats {
+	display:block;
+	height:148px;
+	color:#D62;
+	font-weight:bold;
+}
+#userStats div{float:left;}
+#yousolved{font-size:12px;text-transform:uppercase;margin-left:15px;}
+#solvedcount{font-size:121px;margin-top:-25px;letter-spacing:-10px;}
+#userStats_subcounts{
+	margin-left:50px;
+	margin-top:15px;
+	font-size:12px;
+	font-weight:500;
+	text-align:left;
+	line-height:20px;
+}
+#userStats_subcounts du{text-align:left;}
+.categories{font-weight:bold;font-size:16px;}
+#grade{font-size:121px;margin-top:-10px;margin-left:30%;}
+
+#challengeTicker {
+	padding:24px 0 0 0;
+	height:388px;
+}
+#challengeTicker ol{
+	color:#333;
+	margin:0 0 24px 0;
+	font-size:14px;
+	text-align:left;
+	text-transform:uppercase;
+	font-weight:700;
+	text-shadow:#FFF 0px 1px 0px;
+}
+#challengeTicker ol li{
+	display:inline;
+	margin: 0 30px;
+}
+#challenge_darkwindow{
+	background:#222 url('assets/grad_gr_darkbox.png');
+	margin:0;
+	padding:0;
+	width:661px;
+	height:275px;	
+	background-size:100% 100%;
+	-webkit-box-shadow: inset 0 1px 0 1px rgba(200,200,200,0.5),inset 0 -1px 0 1px rgba(255,255,255,1);
+	white-space:nowrap;
+	overflow:hidden;
+}
+.selectorDot {
+	margin-top:10px;
+	margin-bottom:-10px;
+}
+#challenge_selector ul li{
+	margin:10px 2px 10px 10px;
+	list-style-type:none;
+	display:inline;
+}
+#challenge_scroll{
+	margin:20px 0 0 0;
+	width:2000px;
+	-webkit-transform: translate3d(0px, 0px, 0px); /*translate X in 660px increments*/
+	-webkit-transition: -webkit-transform 0.25s ease-in
+}
+.challenge{
+	color:#EEE;
+	display:block;
+	float:left;
+	width:165px;
+	height:220px;
+	background:url('assets/scroller_separate.png');
+	background-repeat:repeat-y;
+}
+#challenge_all{text-shadow:white 0px 2px 1px;}
+
+#recents {
+	height:auto;
+	font-size:12px;
+	padding:0 0 25px 0;
+}
+#recents du {
+	
+}
+#recents du dt {
+	padding:3px;
+	text-align:center;
+	background:url('assets/recents_sep.png');
+	background-repeat:repeat-x;
+	background-position-y:100%;
+}
+#recents du dt:hover {
+	color:FFF;
+	text-shadow:white 0px 0px 2px;
+}
+#recents_all{text-shadow:black 0px -1px 1px;}

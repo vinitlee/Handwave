@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>Handwave</title>
+	<meta name="generator" content="TextMate http://macromates.com/">
+	<meta name="author" content="Vincent Lee">
+	<!-- Date: 2011-01-06 -->
+	<link rel=Stylesheet type="text/css" href="main.css">
+	<link rel=Stylesheet type="text/css" href="home.css">
+	<script type="text/javascript" charset="utf-8" src="challengeTicker.js"></script>
+</head>
+<body>
+	<div id="grad_t" class="backgradient"></div>
+	<div id="grad_r" class="backgradient"></div>
+	<div id="grad_b" class="backgradient"></div>
+	<div id="grad_l" class="backgradient"></div>
+	<div id="centerContainer">
+		<div id="mainLogo" alt="Handwave" onclick="suprcollidr();"></div>
+		<div id="login" class="block light">
+			<form action="index_submit" method="get" accept-charset="utf-8">
+				<ol id="login_textinput">
+					<li><input type="text" id="login_username"></li>
+					<li><input type="password" id="login_password"></li>
+				</ol>
+				<ol id="login_textinputlabels">
+					<li>Username</li>
+					<li>Password</li>
+				</ol>
+				<input type="submit" value="Sign in" id="login_btn">
+			</form>
+			<button value="Register" id="reg_btn">Register</button>
+		</div>
+		<div id="userStats">
+			<div>
+				<du>
+					<dt id="yousolved">$USER, you have solved</dt>
+					<dt id="solvedcount">483</dt>
+				</du>
+			</div>
+			<div id="userStats_subcounts">
+				<du>
+					<dt class="categories"><a href="#">1 Topic</a></dt>
+					<dt class="categories"><a href="#">2 Topic</a></dt>
+					<dt class="categories"><a href="#">3 Topic</a></dt>
+					<dt class="categories"><a href="#">4 Topic</a></dt>
+					<dt id=""><a href="#all">see all</a></dt>
+				</du>
+			</div>
+			<div id="grade">
+				A+
+			</div>
+		</div>
+		<div id="challengeTicker" class="block light">
+			<ol>
+				<li><a href="#">You</a></li>
+				<li><a href="#">New</a></li>
+				<li><a href="#">Top Rated</a></li>
+				<li><a href="#">Top Paying</a></li>
+				<li><a href="#">Favors</a></li>
+			</ol>
+			<div id="challenge_darkwindow">
+				<img src="assets/selectorDot.png" width="8" height="13" id="sd_1" class="selectorDot">
+				<img src="assets/selectorDot_dk.png" width="8" height="13" id="sd_2" class="selectorDot">
+				<img src="assets/selectorDot_dk.png" width="8" height="13" id="sd_3" class="selectorDot">
+				<div id="challenge_scroll">
+					<div id="ch1" class="challenge">moo</div>
+					<div id="ch2" class="challenge">moo</div>
+					<div id="ch3" class="challenge">moo</div>
+					<div id="ch4" class="challenge">moo</div>
+					<div id="ch5" class="challenge">moo</div>
+					<div id="ch6" class="challenge">moo</div>
+					<div id="ch7" class="challenge">moo</div>
+					<div id="ch8" class="challenge">moo</div>
+					<div id="ch9" class="challenge">moo</div>
+					<div id="ch10" class="challenge">moo</div>
+					<div id="ch11" class="challenge">moo</div>
+					<div id="ch12" class="challenge">moo</div>
+				</div>
+			</div>
+			<div id="challenge_all" class="all">
+				<a href="#">View all challenges</a>
+			</div>
+		</div>
+		<div id="recents" class="block dark">
+			<du>
+				<dt>Task1</dt>
+				<dt>Task2</dt>
+				<dt>Task3</dt>
+			</du>
+			<div id="recents_all" class="all">
+				<a href="#">View all recent</a>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
